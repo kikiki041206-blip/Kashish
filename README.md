@@ -1,47 +1,49 @@
-# Kashish
+#  Ride Sharing Pool Planner  
 
-Welcome to **Ride sharing Pool planner**<br>
+**Name:** Kashish  
+**Enrollment No.:** 2502140031  
 
-A simple Python console application to manage ride-sharing requests, driver data, and route matching between riders and drivers.
-<br>
-<br>
-**Features**<br>
-<br>
->Login system(password:kashish@123)<br>
->Add/Modify/Delete/Match Rider and driver details<br>
->Search for the perfect ride by driver or location<br>
->Auto match drivers and riders based on routes or capacity<br>
->Reports about total rides,drivers and matches<br>
-<br>
-**Data structures**<br>
-<br>
->List-Ride requests,Matched rides<br>
->Dictionary-Driver details<br>
->Set-Unique locations<br>
-<br>
-**Menu Options**
-<br>
-<br>
-1.Add Ride Request
-<br>
-2.Add Driver Info
-<br>
-3.Modify Ride Request
-<br>
-4.Modify Driver Info
-<br>
-5.Delete Ride Request
-<br>
-6.Delete Driver Info
-<br>
-7.Show Reports
-<br>
-8.Search
-<br>
-9.Match Routes
-<br>
-10.Exit<br>
-<br>
-This is just the first phase a command line interface which would be followed by MySQL in the second phase.<br><br>
-Author - **Kashish**<br>
-Python Mini Project - Ride Sharing Pool Planner
+A simple **Python console application** to manage ride-sharing requests, driver data, and route matching between riders and drivers.
+
+---
+
+##  Features  
+
+- **Login system** (Password: `kashish@123`)  
+- **Add / Modify / Delete** rider and driver details  
+- **Search** by location or driver availability  
+- **Auto-match** riders and drivers based on route and capacity  
+- **Reports** showing total rides, drivers, and matches  
+
+---
+
+##  Data Structures  
+
+| Type | Purpose |
+|------|----------|
+| List | Ride requests, matched rides |
+| Dictionary | Driver details |
+| Set | Unique locations |
+
+---
+
+##  Menu Options  
+
+1. Add Ride Request  
+2. Add Driver Info  
+3. Modify Ride Request  
+4. Modify Driver Info  
+5. Delete Ride Request  
+6. Delete Driver Info  
+7. Show Reports  
+8. Search  
+9. Match Routes  
+0. Exit  
+
+---
+
+##  How to Run  
+
+```bash
+python ride_sharing_planner.py
+
