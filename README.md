@@ -1,8 +1,5 @@
 #  Ride Sharing Pool Planner  
 
-**Name:** Kashish  
-**Enrollment No.:** 2502140031  
-
 A simple **Python console application** to manage ride-sharing requests, driver data, and route matching between riders and drivers.
 
 ---
